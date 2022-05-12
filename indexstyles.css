@@ -1,0 +1,96 @@
+.backdrop {
+    background-color: lightskyblue;
+    opacity: 0.60;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+body {
+    margin: 0;
+}
+.hafizQuote {
+    border: 2px solid black;
+    font-family: Cursive;
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px grey;
+
+}
+h1 {
+    text-align: center;
+    margin: 0px;
+}
+h3 {
+    text-align: right;
+    margin: 0px;
+}
+.entryForm {
+    display: block;
+    margin: 0 auto;
+    width: 515px;
+    text-align: left;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 5px;
+}
+.entryForm::-webkit-input-placeholder {
+    opacity: 0.5;
+}
+.buttonContainer {
+    margin: 0 auto;
+    width: 529px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.button {
+    display: block;
+    margin-left: auto;
+    width: 100px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 5px;
+}
+.quotesToShow {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.quote1 {
+    font-size: 24px;
+    opacity: 0.4;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px grey;
+}
+.quote2 {
+    font-size: 28px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px grey;
+}
+.quote3 {
+    font-size: 36px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px grey;
+}
+.main {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px grey;
+}
+img {
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
