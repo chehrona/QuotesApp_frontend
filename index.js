@@ -23,14 +23,14 @@ $( document ).ready(function() {
 
         }
     }
-    $.get("http://127.0.0.1:8000/retrieve/", function (data) {
+    $.get("https://quotesapp-back.herokuapp.com/retrieve/", function (data) {
         console.log(data);
         update(data);
     });
 
     let adding = function(data) {
         let submission = $(".entryForm").val();
-         $.post("http://127.0.0.1:8000/send/", {
+         $.post("https://quotesapp-back.herokuapp.com/send/", {
              'entry': submission
          }, function (data) {
              console.log(data);
